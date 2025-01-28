@@ -21,6 +21,7 @@
  * 1. `WHILE` LOOP
  * ----------------
  * - A `while` loop executes a block of code as long as the condition is `true`.
+ * - `while` is a entry controlled.
  * 
  * Syntax:
  *   // Variable initialization
@@ -63,6 +64,8 @@ while (num >= 1) {
  * 2. `DO-WHILE` LOOP
  * --------------------
  * - A `do-while` loop executes the block of code **at least once**, even if the condition is false.
+ * - `do-while` is a exit controlled.
+ * 
  * 
  * Syntax:
  *   do {

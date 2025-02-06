@@ -34,10 +34,10 @@ console.log("Type of str2:", typeof str2);  // Output: object
 // Comparing values with `==` (loose equality)
 console.log("\nUsing loose equality (==):");
 console.log(s == t);           // Output: true  (both are string literals with the same value)
-console.log(str1 == str2);     // Output: false (str1 is a string, str2 is a String object)
+console.log(str1 == str2);     // Output: true (str1 is a string, str2 is a String object)
 
 console.log(str1 == s);        // Output: true  (value comparison: "abc" == "abc")
-console.log(str2 == s);        // Output: false (str2 is a String object, s is a string literal)
+console.log(str2 == s);        // Output: true (str2 is a String object, s is a string literal)
 
 console.log("abc" == new String("abc")); // Output: true (value comparison: "abc" == "abc")
 

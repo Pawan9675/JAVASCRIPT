@@ -146,11 +146,11 @@ console.log(content);  // ✅ Output: "JS" (Created due to auto-globalling)
 
 
 // *************************************************
-// 💡 AUTO-GLOBALING (Execution Phase Behavior)
+// 💡 AUTO-GLOBALLING (Execution Phase Behavior)
 // *************************************************
 
 /**
- * 🔥 What is Auto-Globaling?
+ * 🔥 What is Auto-Globalling?
  * -------------------------------------
  * - When a **variable is used without declaration**, JavaScript automatically **creates** it in the **global scope**.
  * - This only happens during the **execution phase**.
